@@ -8,6 +8,7 @@
 
 //see https://yutailang0119.hatenablog.com/entry/delatable-table-with-textfield-on-swiftui
 //see https://www.yururiwork.net/?p=163
+//see https://capibara1969.com/1650/
 import SwiftUI
 
 struct ContentView: View {
