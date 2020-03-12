@@ -7,6 +7,7 @@
 //
 
 //see https://yutailang0119.hatenablog.com/entry/delatable-table-with-textfield-on-swiftui
+//see https://www.yururiwork.net/?p=163
 import SwiftUI
 
 struct ContentView: View {
@@ -20,6 +21,7 @@ struct ContentView: View {
                     HStack{
                         CheckView(title: "")
                         EditorView(container: self.$tasks, index: self.tasks.firstIndex(of: task)!, text: task)
+                        Text("a\(self.tasks.count)")
                     }
                 }
                 .onDelete { indexSet in
